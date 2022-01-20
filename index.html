@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+             background-color: dimgrey;
+         }
+    </style>
+    <script> 
+        let preference = prompt("what type of tea do you like?");
+        
+    </script>
+</head>
+<body>
+   <h1 style="color: aqua; " >How to make <b id="first"><script>document.getElementById("first").innerHTML = preference;</script>:</b></h1> 
+   <hr>
+  <ol>
+         <li>bring some required amount of water to boil</li>
+         <li>add about 20g of <b id="second"><script>document.getElementById("second").innerHTML = preference;</script></b> premium tealeaves</li>
+         <li>leave to boil for about 5 minutes</li>
+         <li>add sugar(optional)</li>
+    </ol>
+    <br>
+    <br>
+    <h4 style="     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: blue;">
+                    Enjoy!!!
+
+    </h4>
+
+</body>
+</html>
